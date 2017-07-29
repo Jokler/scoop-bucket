@@ -2,7 +2,7 @@
     "homepage": "http://carnackeys.com/",
     "version": "2.2.155",
     "url": "https://github.com/Code52/carnac/releases/download/2.2.155/carnac.2.2.155.zip",
-    "bin": ["setup.exe", "carnac"],
+    "bin": [["setup.exe", "carnac"]],
     "checkver": {
         "github": "https://github.com/Code52/carnac"
     },
