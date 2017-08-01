@@ -2,7 +2,7 @@
     "homepage": "http://carnackeys.com/",
     "version": "2.2.155",
     "url": "https://github.com/Code52/carnac/releases/download/2.2.155/carnac-2.2.155-full.nupkg#dl.zip",
-    "hash": "db10f5ca2954330cb4af12af1774dec5f0e8b8c60d2d75b260f92a9b22f9030f",
+    "hash": "8e065d2bfeffe899be8df4581f63077ccad593bf7024a7651836e9a93283886b",
     "extract_dir": "lib/net45",
     "bin": "Carnac.exe",
     "checkver": {
