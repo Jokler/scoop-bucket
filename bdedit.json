@@ -2,5 +2,5 @@
     "homepage": "http://pel.hu/bdedit/",
     "version": "0.40",
     "url": "http://pel.hu/down/BDedit.exe",
-    "bin": "BDedit.exe",
+    "bin": "BDedit.exe"
 }
