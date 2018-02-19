@@ -1,0 +1,31 @@
+{
+    "homepage": "http://www.vapoursynth.com/",
+    "version": "R43",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/vapoursynth/vapoursynth/releases/download/R43/VapourSynth64-Portable-R43.7z",
+            "hash": "82c520bbc839ed6bedb462da9d5fae75dbe9f8ea8bbdb8c343725e54bb9fea68"
+        },
+        "32bit": {
+            "url": "https://github.com/vapoursynth/vapoursynth/releases/download/R43/VapourSynth32-Portable-R43.7z",
+            "hash": "d4e1006061acabcdfe760ab7a3924cab02e97281dafbf5cbeaf275dff30f148a"
+        }
+    },
+    "bin": [
+        "VSPipe.exe",
+        "AVFS.exe"
+    ],
+    "checkver": {
+        "github": "https://github.com/vapoursynth/vapoursynth"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/vapoursynth/vapoursynth/releases/download/$version/VapourSynth64-Portable-$version.7z"
+            },
+            "32bit": {
+                "url": "https://github.com/vapoursynth/vapoursynth/releases/download/$version/VapourSynth32-Portable-$version.7z"
+            }
+        }
+    }
+}
