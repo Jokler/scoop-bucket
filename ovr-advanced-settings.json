@@ -1,0 +1,19 @@
+{
+    "homepage": "https://github.com/matzman666/OpenVR-AdvancedSettings",
+    "version": "v2.5",
+    "url": "https://github.com/matzman666/OpenVR-AdvancedSettings/releases/download/v2.5/OpenVR-AdvancedSettings-v2.5.zip",
+    "hash": "f99ced3c461a889c9b98d03eca17e55f94fbfd7ab2e2ffa23060fc02abb970af",
+    "extract_dir": "OpenVR-AdvancedSettings-v2.5",
+    "bin": [
+        [
+            "AdvancedSettings.exe",
+            "ovr-adv"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/matzman666/OpenVR-AdvancedSettings"
+    },
+    "autoupdate": {
+        "url": "https://github.com/matzman666/OpenVR-AdvancedSettings/releases/download/$version/OpenVR-AdvancedSettings-$version.zip"
+    }
+}
