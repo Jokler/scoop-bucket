@@ -1,6 +1,6 @@
 {
     "homepage": "http://www.vapoursynth.com/",
-    "version": "R43",
+    "version": "43",
     "architecture": {
         "64bit": {
             "url": "https://github.com/vapoursynth/vapoursynth/releases/download/R43/VapourSynth64-Portable-R43.7z",
@@ -16,7 +16,8 @@
         "AVFS.exe"
     ],
     "checkver": {
-        "github": "https://github.com/vapoursynth/vapoursynth"
+        "url": "https://github.com/vapoursynth/vapoursynth/releases/latest",
+        "re" : "\\/releases\\/tag\\/(?:R)?([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
