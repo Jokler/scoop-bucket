@@ -28,6 +28,10 @@
             ]
         }
     },
+    "checkver": {
+        "url": "https://github.com/x64dbg/x64dbg/releases/latest",
+        "re" : "\\/(?:snapshot_)([\\d\\-_]+)(?:\\.zip)"
+    },
     "autoupdate": {
         "url": "https://github.com/x64dbg/x64dbg/releases/download/snapshot/snapshot_$version.zip"
     }
