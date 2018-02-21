@@ -10,9 +10,7 @@
             "ovr-adv"
         ]
     ],
-    "checkver": {
-        "github": "https://github.com/matzman666/OpenVR-AdvancedSettings"
-    },
+    "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/matzman666/OpenVR-AdvancedSettings/releases/download/v$version/OpenVR-AdvancedSettings-v$version.zip",
         "extract_dir": "OpenVR-AdvancedSettings-v$version"
