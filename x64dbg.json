@@ -1,0 +1,19 @@
+{
+    "homepage": "https://x64dbg.com/",
+    "version": "2018-02-14_22-42",
+    "url": "https://github.com/x64dbg/x64dbg/releases/download/snapshot/snapshot_2018-02-14_22-42.zip",
+    "hash": "8b14ac8009759ce430684f3dc22b103a3d3df7b0de24268f92eb710a39bf0038",
+    "architecture": {
+        "64bit": {
+            "extract_dir": "release/x64",
+            "bin": "x64dbg.exe"
+        },
+        "32bit": {
+            "extract_dir": "release/x32",
+            "bin": "x32dbg.exe"
+        }
+    },
+    "autoupdate": {
+        "url": "https://github.com/matzman666/OpenVR-AdvancedSettings/releases/download/$version/OpenVR-AdvancedSettings-$version.zip"
+    }
+}
