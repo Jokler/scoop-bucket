@@ -10,12 +10,21 @@
                 "x64/x64dbg.exe",
                 "x32/x32dbg.exe",
                 "x96dbg.exe"
+            ],
+            "persist": [
+                "x64/x64dbg.ini",
+                "x32/x32dbg.ini",
+                "x96dbg.ini"
             ]
         },
         "32bit": {
             "bin": [
                 "x32/x32dbg.exe",
                 "x96dbg.exe"
+            ],
+            "persist": [
+                "x32/x32dbg.ini",
+                "x96dbg.ini"
             ]
         }
     },
