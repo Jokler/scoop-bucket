@@ -1,0 +1,16 @@
+{
+    "homepage": "https://github.com/Jokler/auto-steamgifts",
+    "version": "0.1.0",
+    "url": "https://github.com/Jokler/auto-steamgifts/releases/download/v0.1.0/auto-steamgifts-64bit.exe",
+    "hash": "dbb809d8628e71acb2fd2f6fea012d179fc0ae54101e67a1d1f2b2e49923c210",
+    "architecture": {
+        "64bit": {
+            "bin": [ [ "auto-steamgifts-64bit.exe", "auto-steamgifts", "--config $dir/config.toml" ] ],
+            "persist": "config.toml"
+        }
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/Jokler/auto-steamgifts/releases/download/v$version/auto-steamgifts-64bit.exe"
+    }
+}
