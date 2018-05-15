@@ -1,8 +1,8 @@
 {
     "homepage": "https://github.com/mpeterv/luacheck",
-    "version": "0.21.2",
-    "url": "https://github.com/mpeterv/luacheck/releases/download/0.21.2/luacheck.exe",
-    "hash": "9afe82b1c63b66b3ad73e84d9fbf26537eccb3e7a1d2bbbeabdf99b83b35c9d0",
+    "version": "0.22.0",
+    "url": "https://github.com/mpeterv/luacheck/releases/download/0.22.0/luacheck.exe",
+    "hash": "eaafda720b3bba8e1cda25c33908f53c460dbc973bb6322f23641956811c51f9",
     "architecture": {
         "64bit": {
             "bin": "luacheck.exe"
