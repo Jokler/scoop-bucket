@@ -1,8 +1,8 @@
 {
     "homepage": "https://github.com/Jokler/auto-steamgifts",
-    "version": "0.2.0",
-    "url": "https://github.com/Jokler/auto-steamgifts/releases/download/v0.2.0/auto-steamgifts-64bit.exe",
-    "hash": "703d5ca8b1332d57997ee564773b42addf14bec1cbf5722ae177a886889dab17",
+    "version": "0.3.0",
+    "url": "https://github.com/Jokler/auto-steamgifts/releases/download/v0.3.0/auto-steamgifts-64bit.exe",
+    "hash": "74af5e00ff0263d0a574911895dd3787d149e1fe014e8427d686b65796bf01a3",
     "architecture": {
         "64bit": {
             "bin": [
